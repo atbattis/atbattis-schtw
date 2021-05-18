@@ -18,6 +18,7 @@
     <!-- Want to avoid all the html code, render another view from here, partial: not a full template, _navbar.html.erb -->
     <%= render partial: "shared/navbar" %>
     <div class="container">
+      <%= render partial: "shared/flash" %>
       <%= yield %> <!-- erb, ruby syntax -->
     </div>
   </body>
